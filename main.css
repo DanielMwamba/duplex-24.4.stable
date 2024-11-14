@@ -67,7 +67,7 @@
 
   /* Original colors */
   --background-color: #141926;
-  --dark-background-color: #02050c;
+  --dark-background-color: #121730;
   --container-color: #373737;
   --button-color: #2A2A2A;
   --blue-accent: #4a4c63;
@@ -99,18 +99,44 @@
 }
 
 
-.main-title {
-	font-size: 2.5rem;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-	color: var(--lighttheme-text);
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-shadow: 2px 2px 4px #FF1493;
+.logo-contenaire {
+	  flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-logo {
+	max-width: 240px;
+	height: auto;
+	transition: transform 0.3s ease;
+}
+
+.main-logo:hover {
+	transform: scale(1.05);
+}
+
+@keyframes logoFadeIn {
+	from { opacity: 0; transform: translateY(-20px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.main-logo {
+	animation: logoFadeIn 1s ease-out;
+}
+
+/* Styles responsifs */
+@media (max-width: 768px) {
+	.main-logo {
+			max-width: 180px;
+	}
+}
+
+@media (max-width: 480px) {
+	.main-logo {
+			max-width: 140px;
+	}
 }
 
 /* Style pour le mode sombre */
@@ -512,7 +538,7 @@ button.hint {
 #header {
 	width: 100%;
 	padding: 1px;
-	background-color: #0F131D;
+	background-color: #020E60;
 	color: #FFF;
 	-webkit-app-region: drag;
 }
