@@ -4514,18 +4514,18 @@ input:checked + .slider:before {
 
 #promptModal, .customModelPopup, .promptModal {
 	position: absolute;
-	background-color: rgb(221 221 221);
+	background-color: #e5007e;
 	box-shadow: 0 0 30px 10px #0000005c;
-	color: black;
+	color: #fff;
 	font-size: 1.0em;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	font-weight: bold;
-	z-index:31;
-	width:550px;
-	max-width:100%;
+	z-index: 31;
+	width: 550px;
+	max-width: 100%;
 	overflow: hidden;
 	overflow-wrap: break-word;
 }
