@@ -503,10 +503,10 @@ button.hint {
 
 /* Clicked buttons overwrite */
 .red {
-	background-color: #840000 !important;
+	background-color: rgb(2 14 96) !important;
 }
 .red:hover {
-	background-color: #b30c0c !important;
+	background-color: rgb(2 14 96) !important;
 }
 
 .green {
@@ -536,7 +536,7 @@ button.hint {
 /* ///////////////////// */
 
 .orange {
-	background-color: #673100 !important;
+	background-color: rgb(2 14 96) !important;
 }
 
 #meshcastMenu{
