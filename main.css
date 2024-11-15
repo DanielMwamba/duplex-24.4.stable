@@ -965,8 +965,8 @@ hr {
 }
 
 .directorsgrid .vidcon>.las {
-	color: black;
-	background: #999999;
+	color: #e5007e;
+	background: #ffffff;
 	width: 90%;
 }
 #activeShares>div{
@@ -1357,11 +1357,9 @@ button.glyphicon-button.active.focus {
 #subControlButtons {
 	display: flex;
 	position: absolute;
-	background-color: var(--discord-grey-0);
-	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	background-color: #01082a;
 	pointer-events: auto;
 	border: #cccccc22 1px solid;
-	border-radius: 10px;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -1378,16 +1376,15 @@ button.glyphicon-button.active.focus {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--discord-grey-1);
+	background-color: #1c2654;
 	opacity: unset;
-	border-radius: 8px;
-	transition: border-radius 200ms ease-in-out;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+	transition: border-radius 50ms ease-in-out;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 #subControlButtons div:hover {
 	background-color: var(--discord-grey-3);
-	border-radius: 4px;
+	border-radius: 2px;
 }
 button#press2talk{
 	border: 0;
@@ -1718,9 +1715,9 @@ body.darktheme{
 	100% { box-shadow: 0 0 31px #244e1c44; transform: scale(1.0);}
 }
 .gowebcam:enabled {
-	background-color: #26e726 !important;
-	background: radial-gradient(#26e726, #2EeF2E);
-	color: black!important;
+	background-color: #e5007e !important;
+	background: radial-gradient(#e5007e, #e5007e);
+	color: #ffffff !important;
 	font-weight: bold !important;
 	box-shadow: 0 0 31px 0px #244e1c44;
 	animation: pulsate 2s ease-out infinite;
@@ -2621,13 +2618,13 @@ span[data-action-type="stats-graphs-details-container"]>span{
 	min-width: 45px;
 	min-height: 45px;
 	height: 100%;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
 	color: #FFF;
-	border-radius: 8px;
+	border-radius: 1px;
 	text-align: center;
 	margin: 5px;
 	pointer-events: auto;
-	outline:none;
+	outline: none;
 	padding: 5px 5px;
 }
 .float2 {
@@ -3502,14 +3499,14 @@ label {
 }
 
 .hideLinksClass {
-	background-color: var(--container-color);
-	width:1191px;
+	background-color: #e5007e;
+	width: auto;
 	padding: 10px;
 	margin: 5px 10px 10px 10px;
-	max-width:100%;
+	max-width: 100%;
 }
 .directorContainer {
-	background-color: var(--container-color);
+	background-color: #020e60;
 	margin: 10px 0px 10px 10px;
 	padding: 10px;
 	max-width: min(100%, 1191px);
@@ -3519,7 +3516,7 @@ label {
 	cursor:pointer;
 }
 .directorContainer.half {
-	background-color: var(--container-color);
+	background-color: #020e60;
 	padding: 10px 10px;
 	width: min(100%, 591px);
 }
@@ -3534,7 +3531,7 @@ label {
 	min-height: 174px;
 }
 .directorBlock:nth-child(1) {
-	background-color: var(--blue-accent);
+	background-color: #232b7e !important;
 }
 .directorBlock:nth-child(2) {
 	background-color: var(--green-accent);
@@ -3991,7 +3988,7 @@ div#roomnotes2 {
 }
 
 .darktheme div#guestFeeds {
-	background-color: var(--container-color)
+	background-color: #020c52;
 }
 
 div#guestFeeds {
@@ -4486,7 +4483,7 @@ div.message-card.info:before {
 }
 
 input:checked + .slider {
-	background-color: #86b98f;
+	background-color: #181d56;
 }
 
 input:focus + .slider {
@@ -4727,19 +4724,19 @@ input:checked + .slider:before {
 }
 
 #alertModal {
-	position: absolute;
-	background-color: rgb(221 221 221);
-	box-shadow: 0 0 30px 10px #0000005c;
-	color: black;
-	font-size: 1.2em;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 10px;
-	font-weight: bold;
-	z-index:32;
-	overflow-wrap: break-word;
-	min-width: min(90vw, 320px);
+    position: absolute;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 0 30px 10px #0000005c;
+    color: black;
+    font-size: 1.2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px;
+    font-weight: bold;
+    z-index: 32;
+    overflow-wrap: break-word;
+    min-width: min(90vw, 320px);
 }
 
 #connectUsers{
@@ -5179,10 +5176,10 @@ body.darktheme .column>h2{
 	color: white;
 }
 body.darktheme .directorsgrid .vidcon > .las {
-	background-color: #424242;
+	background-color: #ffffff;
 }
 body.darktheme h2 {
-	color: #DDD;
+	color: #ffffff;
 }
 body.darktheme .column .las {
 	color: var(--discord-text);
@@ -5212,7 +5209,7 @@ body.darktheme .avatarLabel {
 	color: #f8f7f7;
 }
 body.darktheme .directorsgrid .vidcon {
-	background-color: var(--discord-grey-3);
+	background-color: #1e256b;
 }
 body.darktheme .promptModal {
 	background-color: var(--discord-grey-5);
@@ -5284,9 +5281,11 @@ button i {
 	font-size: 130%;
 }
 .darktheme :not(.promptModalInner) > button {
-	background-color: var(--discord-grey-5);
-	border: 1px solid var(--discord-grey-8);
-	color: var(--discord-text);
+    background-color: #e5007e;
+    border: 1px solid #e5007e;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #ffffff;
 }
 .darktheme :not(.promptModalInner) > button:hover {
 	filter: brightness(1.05);

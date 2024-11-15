@@ -131,11 +131,11 @@ canvas {
 
 #log {
     margin-top: 10px;
-    background: #313131;
+    background: #121730;
     padding: 20px 0px;
-    border: 1px solid #383838;
+    border: 1px solid #121730;
     cursor: pointer;
-	max-height:300px;
+    max-height: 300px;
 }
 
 #log ul {
@@ -150,10 +150,10 @@ canvas {
 #graphs {
     display: block;
     margin-top: 20px;
-    background: #313131;
+    background: #121730;
     padding: 20px 0px;
-    border: 1px solid #383838;
-	text-align: center;
+    border: 1px solid #141926;
+    text-align: center;
 }
 
 .graphContainer {
