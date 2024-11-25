@@ -625,7 +625,7 @@
     "you-are-no-longer-a-co-director": "You are no longer a co-director as you were transferred.",
     "transferred": "Transferred",
     "room-changed": "Your room has changed",
-    "headphones-tip": "<i>Tip:</i> Use headphones to avoid audio echo issues.",
+    "headphones-tip": "<i>Conseil :</i> Utilisez des écouteurs pour éviter les problèmes d'écho audio.",
     "camera-tip-c922": "<i>Tip:</i> To achieve 60-fps with a C922 webcam, low-light compensation needs to be turned off, exposure set to auto, and 720p used.",
     "camera-tip-camlink": "<i>Tip:</i> A Cam Link may glitch green/purple if accessed elsewhere while already in use.",
     "samsung-a-series": "Samsung A-series phones may have issues with Chrome; if so, try Firefox Mobile instead or switch video codecs.",
