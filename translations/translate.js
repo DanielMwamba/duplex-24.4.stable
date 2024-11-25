@@ -92,12 +92,12 @@ function updateTranslation(filename) { // updates the website with a specific tr
 
 const updateList = [
 	"blank", // must be first
-	"en",
+	"fr",
     "cs",
 	"cn",
     "de",
     "es",
-    "fr",
+    "en",
     "it",
     "ja",
 	"eu",
