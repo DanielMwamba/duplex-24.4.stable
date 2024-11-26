@@ -24147,7 +24147,7 @@ function requestOutputAudioStream() {
     if (!session.cleanOutput) {
       if (window.isSecureContext) {
         warnUser(
-          "An error has occured when trying to access the default audio device. The reason is not known."
+          "Une erreur s'est produite lors de la tentative d'accès au périphérique audio par défaut. La raison n'est pas connue."
         );
       } else if (iOS || iPad) {
         warnUser(
@@ -24235,7 +24235,7 @@ async function requestAudioStream() {
     if (!session.cleanOutput) {
       if (window.isSecureContext) {
         warnUser(
-          "An error has occured when trying to access the default audio device. The reason is not known."
+          "Une erreur s'est produite lors de la tentative d'accès au périphérique audio par défaut. La raison n'est pas connue."
         );
       } else if (iOS || iPad) {
         warnUser(
