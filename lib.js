@@ -63,7 +63,7 @@ var translation = false;
 var miscTranslations = {
   // i can replace this list from time to time from the generated one in blank.json using translate.js
   start: "START",
-  "new-display-name": "Enter a new Display Name for this stream",
+  "new-display-name": "Saisissez un nouveau nom d'affichage pour ce flux",
   "submit-error-report":
     "Press OK to submit any error logs to VDO.Ninja. Error logs may contain private information.",
   "director-redirect-1": "The director wishes to redirect you to the URL: ",
@@ -95,7 +95,7 @@ var miscTranslations = {
     "Please enter the director's password:\n\n(Note: Passwords are case-sensitive and you will not be alerted if it is incorrect.)",
   "password-incorrect": "The password was incorrect.\n\nRefresh and try again.",
   "enter-display-name": "Please enter your display name:",
-  "enter-new-display-name": "Enter a new Display Name for this stream",
+  "enter-new-display-name": "Saisissez un nouveau nom d'affichage pour ce flux",
   "what-bitrate":
     "What bitrate would you like to record at? (kbps)\n\n - This remote guest will save the recording directly to their local disk.\n\n - The recording can fail, so have backup recordings going.\n\n - This record option does not use Internet bandwidth and offers a high quality recording",
   "enter-website": "Enter a website URL to share",
@@ -38471,15 +38471,15 @@ async function requestBasicPermissions(
     if (!session.cleanOutput) {
       if (window.isSecureContext) {
         warnUser(
-          "An error has occured when trying to access the webcam or microphone. The reason is not known."
+          "Une erreur s'est produite lors de la tentative d'accès à la caméra ou au microphone. La raison n'est pas connue."
         );
       } else if (iOS || iPad) {
         warnUser(
-          "iOS version 13.4 and up is generally recommended; older than iOS 11 is not supported."
+          "La version iOS 13.4 et ultérieure est généralement recommandée ; les versions antérieures à iOS 11 ne sont pas prises en charge."
         );
       } else {
         warnUser(
-          "Error acessing camera or microphone.\n\nThe website may be loaded in an insecure context.\n\nPlease see: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+          "Erreur d'accès à la caméra ou au microphone.\n\nLe site Web peut être chargé dans un contexte non sécurisé.\n\nVeuillez consulter : https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
         );
       }
     }
